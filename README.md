@@ -24,7 +24,6 @@ Then, you need to add some informations in your configuration files. You can fin
 'providers' => [
     ...
     Mailjet\LaravelMailjet\MailjetServiceProvider::class,
-    Mailjet\LaravelMailjet\MailjetMailServiceProvider::class,
     ...
 ]
 ```
@@ -39,7 +38,7 @@ Then, you need to add some informations in your configuration files. You can fin
 ]
 ```
 
-* In the services.php file:
+* In the mail.php file:
 
 ```php
 mailjet' => [
